@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    font-family: 'Roboto';
+    /* font-family: ProximaNova; */
+}
+
+.nav-home {
+    background-image: url("back-home.jpg");
+    background-attachment: fixed;
+    padding: 2em 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    margin: 0 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-app-in-up a {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+}
+
+nav {
+    margin: 0 25px;
+}
+
+.home-heading {
+    font-size: 4rem;
+    font-weight: 900;
+    padding: 1rem 0;
+}
+
+.home-text {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.home-head {
+    color: #fff;
+    text-align: center;
+}
+
+.search {
+    width: 40%;
+    margin: 2rem auto;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.icon-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 3%;
+    top: 0;
+    bottom: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.home-content {
+    padding: 3em 0;
+}
+
+.search .item-search {
+    padding: 1rem;
+    width: 100%;
+
+    border: none;
+    border-radius: 5px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cols {
+    /* width: 23%; */
+    padding: 12px;
+}
+
+img {
+    width: 100%;
+}
+
+.cards-list {
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 15px;
+}
+
+p {
+    padding: 2px 0px 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+h3 {
+    padding: 5px 0px 5px;
+    font-size: 17px;
+    color: #1a1919;
+}
+
+.rating {
+    padding: 5px 5px;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+.rattings {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 0px 0px 5px;
+}
+
+button {
+    border: 2px solid purple;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    background-color: purple;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid lightgray;
+}
+
+input:focus {
+    outline: none;
+}
+
+span {
+    /* width: 13%; */
+    display: block;
+    border-radius: 1px;
+}
+
+.fa-star {
+    padding: 0 5px 0px 0px;
+    color: white;
+}
+
+.button1 {
+    padding: .5em 1em;
+    background-color: #48c479;
+    color: aliceblue;
+    border: none;
+    font-size: 14px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    align-items: baseline;
+}
+
+.text {
+    text-align: center;
+    border: none;
+    width: 10%;
+    font-size: large;
+}
+
+
+@media only screen and (min-width:320px) ,(min-width:280px) {
+    .cols {
+        width: 100%;
+    }
+
+    .icon-search {
+        right: 14%;
+    }
+
+    .nav-app-in-up a {
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .cols {
+        width: 40%;
+    }
+
+    .icon-search {
+        right: 4%;
+    }
+
+    .nav-app-in-up a {
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .cols {
+        width: 22%;
+    }
+
+    .icon-search {
+        right: 4%;
+    }
+
+    .nav-app-in-up a {
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.position {
+    position: fixed;
+    width: 300px;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    flex-wrap: wrap;
+}
+
+/* .position p {
+    display: flex;
+} */
