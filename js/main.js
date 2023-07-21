@@ -293,7 +293,7 @@ foodList.forEach(function (e) {
 
         icon2.addEventListener("click", function () {
             item.value = ++itemval;
-            click.innerText = `${heading.innerText} (${--itemval})`;
+            click.innerText = `${heading.innerText} (${item.value})`;
             position.appendChild(click);
             position.style.display = "flex";
         })
