@@ -272,7 +272,6 @@ foodList.forEach(function (e) {
         item.setAttribute("value", "0");
         items.appendChild(item);
 
-
         let icon2 = document.createElement("span");
         icon2.setAttribute("class", "fa fa-plus");
         items.appendChild(icon2);
@@ -282,19 +281,18 @@ foodList.forEach(function (e) {
         icon1.addEventListener("click", function () {
             if (item.value == 0) {
                 items.remove();
+                click.remove();
                 btnadd.style.display = "flex";
             } else if (item.value > 0) {
                 item.value = --itemval;
-            }
-            else {
                 click.innerText = `${heading.innerText} (${item.value})`;
             }
         })
 
         icon2.addEventListener("click", function () {
             item.value = ++itemval;
-            click.innerText = `${heading.innerText} (${item.value})`;
             position.appendChild(click);
+            click.innerText = `${heading.innerText} (${item.value})`;
             position.style.display = "flex";
         })
     });
