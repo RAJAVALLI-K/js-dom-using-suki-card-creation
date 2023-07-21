@@ -196,8 +196,33 @@ span {
     font-size: large;
 }
 
+.offr {
+    padding: 15px 0px;
+    border-top: 1px solid #e9e9eb;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
 
-@media only screen and (min-width:320px) ,(min-width:280px) {
+.offr img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.offr span {
+    font-size: 13px;
+    color: #8a584b;
+}
+
+.offr i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+@media only screen and (min-width:320px),
+(min-width:280px) {
     .cols {
         width: 100%;
     }
@@ -268,6 +293,7 @@ span {
     border-radius: 10px;
     display: none;
     flex-wrap: wrap;
+    font-family: 'Roboto';
 }
 
 /* .position p {

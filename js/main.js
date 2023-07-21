@@ -6,7 +6,8 @@ let foodList = [
         rating: 4.9,
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bjg980e2fespxqktcdlm",
         time: "35 MINS",
-        price: "₹500 FOR TWO"
+        price: "₹500 FOR TWO",
+        offer: "Flat ₹150 off | Use NYFIESTA",
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ let foodList = [
         rating: 4.7,
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ehyfl5lfl6ogclj12cr9",
         time: "20 MINS",
-        price: "₹250 FOR TWO"
+        price: "₹250 FOR TWO",
+        offer: "50% off | Use WELCOME50",
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ let foodList = [
         rating: 3.5,
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/qbaooyu1av9clbuli7yb",
         time: "45 MINS",
-        price: "₹180 FOR TWO"
+        price: "₹180 FOR TWO",
+        offer: "Flat ₹150 off | Use NYFIESTA",
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ let foodList = [
         rating: 2.9,
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/amc7bdmi4vr9ckyyiart",
         time: "25 MINS",
-        price: "₹100 FOR TWO"
+        price: "₹100 FOR TWO",
+        offer: "50% off | Use WELCOME50",
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ let foodList = [
         rating: 3.7,
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/gfunnisadym2gfnhpqus",
         time: "25 MINS",
-        price: "₹100 FOR TWO"
+        price: "₹100 FOR TWO",
+        offer: "Flat ₹150 off | Use NYFIESTA",
     },
     {
         id: 6,
@@ -51,7 +56,8 @@ let foodList = [
         rating: 2.5,
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/dxpwrrsfmww25bnndgzf",
         time: "45 MINS",
-        price: "₹350 FOR TWO"
+        price: "₹350 FOR TWO",
+        offer: "50% off | Use WELCOME50",
     },
     {
         id: 7,
@@ -60,7 +66,8 @@ let foodList = [
         rating: 4.9,
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/8db3cb914b52c44ad8da337200746fe7",
         time: "30 MINS",
-        price: "₹200 FOR TWO"
+        price: "₹200 FOR TWO",
+        offer: "Flat ₹175 off | Use NYFIESTA"
     },
     {
         id: 8,
@@ -69,7 +76,8 @@ let foodList = [
         rating: 3.5,
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/u5uxo96prvul97arojx9",
         time: "25 MINS",
-        price: "₹300 FOR TWO"
+        price: "₹300 FOR TWO",
+        offer: "50% off | Use WELCOME50",
     },
     {
         id: 9,
@@ -79,6 +87,7 @@ let foodList = [
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/cndsoe44e7bfmivdobxa",
         time: "30 MINS",
         price: "₹300 FOR TWO",
+        offer: "Flat ₹175 off | Use NYFIESTA",
     },
     {
         id: 10,
@@ -88,6 +97,7 @@ let foodList = [
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ipjsuasggph9zabfsrlv",
         time: "46 MINS",
         price: "₹200 FOR TWO",
+        offer: "50% off | Use WELCOME50",
     },
     {
         id: 11,
@@ -97,6 +107,7 @@ let foodList = [
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/knyjoetekz2ay61jvhwo",
         time: "25 MINS",
         price: "₹250 FOR TWO",
+        offer: "Flat ₹150 off | Use NYFIESTA",
     },
     {
         id: 12,
@@ -106,6 +117,7 @@ let foodList = [
         imgUrl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/w06omkzgzv8dmvbzhxxm",
         time: "48 MINS",
         price: "₹150 FOR TWO",
+        offer: "50% off | Use WELCOME50",
     },
     {
         id: 13,
@@ -115,6 +127,7 @@ let foodList = [
         rating: 3.5,
         time: "46 MINS",
         price: "₹250 FOR TWO",
+        offer: "Flat ₹175 off | Use NYFIESTA"
     },
     {
         id: 14,
@@ -124,6 +137,7 @@ let foodList = [
         rating: 2.5,
         time: "30 MINS",
         price: "₹300 FOR TWO",
+        offer: "50% off | Use WELCOME50",
     },
     {
         id: 15,
@@ -133,6 +147,7 @@ let foodList = [
         rating: 4.5,
         time: "31 MINS",
         price: "₹450 FOR TWO",
+        offer: "Flat ₹150 off | Use NYFIESTA",
     },
     {
         id: 16,
@@ -142,6 +157,7 @@ let foodList = [
         rating: 3.4,
         time: "57 MINS",
         price: "₹300 FOR TWO",
+        offer: "50% off | Use WELCOME50",
     },
 ];
 let ContainerDiv = document.querySelector(".container");
@@ -218,6 +234,18 @@ foodList.forEach(function (e) {
     price.innerHTML = e.price;
     price.style.fontSize = "13px";
 
+    let offr = document.createElement("div");
+    offr.classList.add("offr");
+    cardsDiv.appendChild(offr);
+
+    let image = document.createElement("img");
+    image.src = "img/offer.png";
+    offr.appendChild(image);
+
+    let offers = document.createElement("span");
+    offers.innerText = e.offer;
+    offr.appendChild(offers);
+
     let itemsadd = document.createElement("div");
     itemsadd.classList.add("items");
     cardsDiv.appendChild(itemsadd);
@@ -252,18 +280,20 @@ foodList.forEach(function (e) {
         let click = document.createElement("p");
         var itemval = parseInt(item.value);
         icon1.addEventListener("click", function () {
-            if (item.value == 1) {
+            if (item.value == 0) {
                 items.remove();
                 btnadd.style.display = "flex";
-            } else {
+            } else if (item.value > 0) {
                 item.value = --itemval;
+            }
+            else {
                 click.innerText = `${heading.innerText} (${item.value})`;
             }
         })
 
         icon2.addEventListener("click", function () {
             item.value = ++itemval;
-            click.innerText = `${heading.innerText} (${item.value})`;
+            click.innerText = `${heading.innerText} (${--itemval})`;
             position.appendChild(click);
             position.style.display = "flex";
         })
